@@ -89,3 +89,17 @@ section{
 #English:hover{
     border-bottom: 1px solid rgb(9, 9, 107);
 }
+footer{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+footer ul > li > a{
+    text-decoration: none;
+    margin-right: 50px;
+}
+footer ul > li > a :hover{
+    border-bottom: 1px solid black;
+}
